@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="nav">
                 <a href="#">
-                    <img src="./img/logo.svg" alt="">
+                    <img class="logo" src="./img/logo.svg" alt="">
                 </a>
                 <ul class="nav__list">
                     <li>
@@ -68,58 +68,78 @@
         <section class="colobrate">
             <div class="container">
                 <div class="create">
-                    <div class="litle">
-                        <img src="./img/nishon.png" alt="">
-                        <p>Create</p>
+                    <div class="create__box">
+                        <button onclick="moveLeft()" class="my__btn ">
+                            <img loading="lazy" width="24" height="24"
+                                src="https://oneflow.com/app/uploads/2021/04/Journey_Icons_Create_Green.svg"
+                                class="attachment-thumbnail size-thumbnail" alt=""> <span
+                                class="c-product-carousel__tab-label">Create</span>
+                        </button>
+                        <button onclick="moveLeft1()" class=" my__btn ">
+                            <img loading="lazy" width="24" height="24"
+                                src="https://oneflow.com/app/uploads/2021/04/Journey_Icons_Collaborate_Green.svg"
+                                class="attachment-thumbnail size-thumbnail" alt=""> <span
+                                class="c-product-carousel__tab-label">Collaborate</span>
+                        </button>
+                        <button onclick="moveLeft2()" class=" my__btn">
+                            <img loading="lazy" width="24" height="24"
+                                src="https://oneflow.com/app/uploads/2021/04/Journey_Icons_Sign_Green.svg"
+                                class="attachment-thumbnail size-thumbnail" alt=""> <span
+                                class="c-product-carousel__tab-label">Sign</span>
+                        </button>
+                        <button onclick="moveLeft3()" class=" my__btn">
+                            <img loading="lazy" width="24" height="24"
+                                src="https://oneflow.com/app/uploads/2021/04/Journey_Icons_Manage_Green.svg"
+                                class="attachment-thumbnail size-thumbnail" alt=""> <span
+                                class="c-product-carousel__tab-label">Manage</span>
+                        </button>
+                        <button onclick="moveLeft4()" class=" my__btn ">
+                            <img loading="lazy" width="24" height="24"
+                                src="https://oneflow.com/app/uploads/2021/04/Journey_Icons_Analyze_Green.svg"
+                                class="attachment-thumbnail size-thumbnail" alt=""> <span
+                                class="c-product-carousel__tab-label">Analyze</span>
+                        </button>
+                        <button onclick="moveLeft5()" class=" my__btn ">
+                            <img loading="lazy" width="24" height="24"
+                                src="https://oneflow.com/app/uploads/2021/04/Journey_Icons_Integrate_Green.svg"
+                                class="attachment-thumbnail size-thumbnail" alt=""> <span
+                                class="c-product-carousel__tab-label">Integrate</span>
+                        </button>
                     </div>
-                    <div class="litle">
-                        <img src="./img/zagruska.png" alt="">
-                        <p>Collaborate</p>
-                    </div>
-                    <div class="litle">
-                        <img src="./img/x.png" alt="">
-                        <p>Sign</p>
-                    </div>
-                    <div class="litle">
-                        <img src="./img//zz.png" alt="">
-                        <p>Manage</p>
-                    </div>
-                    <div class="litle">
-                        <img src="./img/plus.png" alt="">
-                        <p>Analyze</p>
-                    </div>
-                    <div class="litle">
-                        <img src="./img/ppp.png" alt="">
-                        <p>Integrate</p>
+                    <div class="left">
+                        <div>
+
+                            <div class="box__litle"></div>
+                            <div class="pas__chiz">
+                                  <img class="pas__chiz" src="./img/pas chiziq.png" alt="">
+
+                            </div>
+
+                          
+                            <h1 class="pas__title">Collaborate</h1>
+                            <p class="pas__des">Work together on one version in real-time. No hocus <br> pocus.</p>
+                            <div class="checx">
+                                <img src="./img/piticka.png" alt="">
+                                <p>Edit live</p>
+                            </div>
+                            <div class="checx1">
+                                <img src="./img/piticka.png" alt="">
+                                <p>Make fields interactive</p>
+                            </div>
+                            <div class="checx2">
+                                <img src="./img/piticka.png" alt="">
+                                <p>Stay one step ahead</p>
+                            </div>
+                            <button class="pas__btn">Learn more</button>
+                        </div>
+                        <div class="right">
+                            <img class="tenis" src="./img/tenis.png" alt="">
+                        </div>
                     </div>
                 </div>
+
             </div>
-            <div class="pas">
-                <div class="left">
-                    <div>
-                        <img src="./img/pas chiziq.png" alt="">
-                        <h1 class="pas__title">Collaborate</h1>
-                        <p class="pas__des">Work together on one version in real-time. No hocus <br> pocus.</p>
-                        <div class="checx">
-                            <input class="inp1" type="checkbox">
-                            <p>Edit live</p>
-                        </div>
-                        <div class="checx1">
-                            <input type="checkbox">
-                            <p>Make fields interactive</p>
-                        </div>
-                        <div class="checx2">
-                            <input type="checkbox">
-                            <p>Stay one step ahead</p>
-                        </div>
-                        <button class="pas__btn">Learn more</button>
 
-                    </div>
-                    <div class="right">
-                        <img class="tenis" src="./img/tenis.png" alt="">
-
-                    </div>
-                </div>
         </section>
     </section>
     </section>
@@ -358,5 +378,6 @@
 
 
 </body>
+<script src="./js/main.js"></script>
 
 </html>
