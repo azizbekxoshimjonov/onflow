@@ -26,8 +26,12 @@ header {
     margin-top: 45px;
     height: 80px;
     box-shadow: 0px 0px 5px grey;
+    overflow: scroll;
+    cursor: pointer;
 }
-
+header::-webkit-scrollbar{
+    display: none;
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -50,7 +54,9 @@ header {
     margin-left: 62px;
    
 }
-
+.nav__item:hover{
+    color: red;
+}
 .button__demo {
     width: 114px;
     height: 40px;
@@ -233,10 +239,11 @@ header {
 .box__litle{
     width: 52px;
     height: 2px;
-    border: 2px solid red;
-    background-color: red;
+    border: 2px solid rgb(1, 58, 76);
+    background-color: rgb(1, 58, 76);
     margin-top: 31px;
     margin-left: 15px;
+    transition: all 0.5s;
     
 }
 .my__btn{

@@ -10,27 +10,27 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div class="container">
             <nav class="nav">
-                <a href="#">
+               
                     <img class="logo" src="./img/logo.svg" alt="">
-                </a>
+                
                 <ul class="nav__list">
                     <li>
-                        <a href="#">Why Oneflow?</a>
+                        <a onclick="scrollToSection(id)" class="nav__lits" href="#hero">Why Oneflow?</a>
+                    </li>
+                    <li  class="nav__item">
+                        <a onclick="scrollToSection(id)" class="nav__lits2" href="#jooin" href="#">Learn</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#">Learn</a>
+                        <a onclick="scrollToSection(id)" class="nav__lits3" href="#colobrate" href="#">Pricing</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#">Pricing</a>
+                        <a onclick="scrollToSection(id)" class="nav__lits4" href="#smart" href="#">About</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#">Blog</a>
+                        <a onclick="scrollToSection(id)" class="nav__lits5" href="#footer" href="#">Blog</a>
                     </li>
                 </ul>
                 <button class="button__demo">Get a demo</button>
@@ -40,7 +40,7 @@
 
         </div>
     </header>
-    <section class="hero">
+    <section id="hero" class="hero">
         <div class="container">
             <h1 class="hero__title">Work wonders</h1>
             <p class="hero__des">Be more effective with smart contracts <br> that make work faster, and life easier.
@@ -49,7 +49,7 @@
             <button class="hero__btn__btn">Take a tour</button>
         </div>
     </section>
-    <section class="jooin">
+    <section id="jooin" class="jooin">
         <div class="container">
             <h2 class="jooin__title">Join these companies making business flow</h2>
             <img class="jooin__des" src="./img/tele.png" alt="">
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <section class="colobrate">
+        <section id="colobrate" class="colobrate">
             <div class="container">
                 <div class="create">
                     <div class="create__box">
@@ -151,7 +151,7 @@
                 allowfullscreen></iframe>
         </div>
     </section>
-    <section class="smart">
+    <section id="smart" class="smart">
         <div class="container">
             <h1 class="smart__title">The complete <br> platform for smart <br> contracts</h1>
             <div class="smart__box">
@@ -306,7 +306,7 @@
             </div>
         </div>
     </section>
-    <section class="footer">
+    <section id="footer" class="footer">
         <div class="container">
             <div class="passs">
                 <div class="footer__box1">
