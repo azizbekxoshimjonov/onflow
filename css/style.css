@@ -23,15 +23,21 @@ a {
 }
 
 header {
-    margin-top: 45px;
     height: 80px;
     box-shadow: 0px 0px 5px grey;
     overflow: scroll;
     cursor: pointer;
 }
-header::-webkit-scrollbar{
+
+header::-webkit-scrollbar {
     display: none;
 }
+
+.logo {
+    width: 139px;
+    height: 30px;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -45,18 +51,21 @@ header::-webkit-scrollbar{
     justify-content: space-between;
     align-items: center;
     margin-left: 431px;
-    a{
+
+    a {
         color: rgb(1, 58, 76);
     }
 }
 
 .nav__item {
     margin-left: 62px;
-   
+
 }
-.nav__item:hover{
+
+.nav__item:hover {
     color: red;
 }
+
 .button__demo {
     width: 114px;
     height: 40px;
@@ -213,7 +222,8 @@ header::-webkit-scrollbar{
     align-items: center;
     justify-content: space-around;
 }
-.create{
+
+.create {
     width: 1152px;
     height: 600px;
     border: 1px solid rgb(205, 238, 255);
@@ -222,11 +232,12 @@ header::-webkit-scrollbar{
     margin-top: 100px;
     margin-left: 144px;
 }
+
 .create__box {
-   
+
     display: flex;
     justify-content: space-around;
-    
+
 
     p {
         margin-top: 17px;
@@ -236,7 +247,8 @@ header::-webkit-scrollbar{
 .litle {
     margin-top: 42px;
 }
-.box__litle{
+
+.box__litle {
     width: 52px;
     height: 2px;
     border: 2px solid rgb(1, 58, 76);
@@ -244,9 +256,10 @@ header::-webkit-scrollbar{
     margin-top: 31px;
     margin-left: 15px;
     transition: all 0.5s;
-    
+
 }
-.my__btn{
+
+.my__btn {
     background-color: initial;
     border: none;
     cursor: pointer;
@@ -261,16 +274,18 @@ header::-webkit-scrollbar{
     flex-direction: column;
     justify-content: center;
     margin-right: 2rem;
-    span{
+
+    span {
         font-family: Work Sans, sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
         margin-top: .5rem;
-    
+
     }
 }
-.create__box{
+
+.create__box {
     margin-top: 42px;
 }
 
@@ -346,9 +361,11 @@ header::-webkit-scrollbar{
         line-height: 20px;
     }
 }
-.pas__chiz{
+
+.pas__chiz {
     margin-top: -15px;
 }
+
 .litle {
     text-align: center;
 
@@ -902,7 +919,9 @@ header::-webkit-scrollbar{
         }
     }
 }
-
+.saemple{
+    margin-top: -400px;
+}
 .saemple__title {
     margin-top: 442px;
     margin-left: 182px;
@@ -1150,21 +1169,6 @@ header::-webkit-scrollbar{
     margin-left: 29px;
     text-align: center;
 
-    button {
-        width: 104px;
-        height: 21px;
-        border-radius: 2px;
-        background: rgb(24, 123, 183);
-        color: rgb(255, 255, 255);
-        font-family: Work Sans;
-        font-size: 11px;
-        font-weight: 400;
-        line-height: 11px;
-        letter-spacing: 0%;
-        text-align: center;
-        border: none;
-        margin-top: 24px;
-    }
 
     h1 {
         color: rgb(255, 255, 255);
@@ -1178,7 +1182,7 @@ header::-webkit-scrollbar{
 
 .sweco__btn5 {
     width: 135px;
-    height: 1000px;
+    height: 40px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
     background: rgb(15, 89, 135);
@@ -1187,6 +1191,18 @@ header::-webkit-scrollbar{
     font-weight: 400;
     line-height: 18px;
     margin-top: 116px;
+    color: white;
+}
+
+.sweco__btn__btn {
+    width: 104px;
+    height: 21px;
+    border-radius: 2px;
+    background: rgb(24, 123, 183);
+    background-color: rgb(24, 123, 183);
+    color: white;
+    border: 1px solid rgb(24, 123, 183);
+    margin-top: 24px;
 }
 
 .sweco__box3 {
@@ -1547,7 +1563,8 @@ header::-webkit-scrollbar{
     margin-top: 17px;
     margin-left: 144px;
 }
-.priv{
+
+.priv {
     color: rgb(153, 176, 183);
     font-family: Work Sans;
     font-size: 13px;
@@ -1558,7 +1575,8 @@ header::-webkit-scrollbar{
     margin-top: 17px;
     margin-left: 32px;
 }
-.cook{
+
+.cook {
     color: rgb(153, 176, 183);
     font-family: Work Sans;
     font-size: 13px;
@@ -1576,7 +1594,8 @@ header::-webkit-scrollbar{
     margin-top: 76px;
     margin-left: 144px;
 }
-.globs{
+
+.globs {
     margin-left: 18px;
     width: 20px;
     height: 20px;
