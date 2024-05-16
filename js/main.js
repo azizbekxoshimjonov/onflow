@@ -34,18 +34,15 @@ function moveLeft5(){
         if (window.scrollY > 0) {
             navLits.style.position = 'fixed';
             navLits.style.top = '0';
-            navLits.style.left = '50%';
-            navLits.style.transform = 'translateX(-50%)'; 
             navLits.style.backgroundColor = 'white';
-           
+            navLits.style.transition = 'all 5.5s ease';
         } else {
             navLits.style.position = 'static';
-            navLits.style.left = 'auto'; 
             navLits.style.transform = 'none'; 
             navLits.style.backgroundColor = 'white';
-           
         }
     });
+    
     
 
     
