@@ -35,7 +35,7 @@ function moveLeft5(){
             navLits.style.position = 'fixed';
             navLits.style.top = '0';
             navLits.style.backgroundColor = 'white';
-            navLits.style.transition = 'all 5.5s ease';
+         
         } else {
             navLits.style.position = 'static';
             navLits.style.transform = 'none'; 
